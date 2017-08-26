@@ -1,4 +1,4 @@
-# Phlash
+<img src=logo-small.png height="150">
 
 ### A Chrome based web application for creating flashcard type notes
 
