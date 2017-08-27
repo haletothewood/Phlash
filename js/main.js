@@ -24,11 +24,11 @@ var tipsList = [
 ];
 
 // Tip Limit counter
-
+var tipLimit = 3
 
 // Generate a number
 function generateNumber() {
-	Math.floor(Math.random()*tipsList.length);
+  return Math.floor(Math.random()*tipsList.length);
 }
 
 // Generate a tip:
@@ -38,8 +38,10 @@ function generateNumber() {
 function generateTip() {
 	var tip = tipsList[generateNumber()];
 	var tipElement = document.querySelector('.js-tip');
-
+	var tipLimitCount = document.querySelector('.tip-limit-count');
+	
 	tipElement.innerHTML = tip;
+	tipLimitCount.innerHTML = tipLimit
 }
 
 
@@ -53,3 +55,4 @@ function generateTip() {
 
 
 // Get the first tip
+generateTip();
