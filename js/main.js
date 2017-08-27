@@ -27,12 +27,20 @@ var tipsList = [
 
 
 // Generate a number
-
+function generateNumber() {
+	Math.floor(Math.random()*tipsList.length);
+}
 
 // Generate a tip:
 // 1. Get random number from generateNumber()
 // 2. Use the random number to get the tip from the array
 // 3. Show the tip
+function generateTip() {
+	var tip = tipsList[generateNumber()];
+	var tipElement = document.querySelector('.js-tip');
+
+	tipElement.innerHTML = tip;
+}
 
 
 // Tip button click
