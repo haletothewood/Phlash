@@ -19,7 +19,7 @@ body {
 
 .code {
   font-family: monospace;
-  background-color: #336180;
+  background-color: #00aeff;
   padding: 0.25rem 0.75rem;
   font-size: 1.375rem;
   border-radius: 0.15em;
@@ -27,7 +27,7 @@ body {
 
 .code-block {
   font-family: monaco, Consolas, "Lucida Console", monospace;
-  background-color: #336180;
+  background-color: #00aeff;
   padding: 0.5em 0.75em;
   font-size: 1.15rem;
   border-radius: 0.15rem;
@@ -53,9 +53,10 @@ body {
 }
 
 .tip-button {
-  background-color: #34B3A0;
+  background-color: #fff200;
   outline: none;
   padding: 1rem 1.5rem;
+  border-radius: 0.15em;
   display: inline-block;
   margin: auto;
   font-size: 1rem;
@@ -63,7 +64,7 @@ body {
   cursor: pointer;
   font-weight: bolder;
   border: none;
-  color: white;
+  color: black;
 }
 
 .disabled {
