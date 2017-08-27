@@ -1,8 +1,8 @@
 body {
   font-family: 'Oxygen', sans-serif;
-  font-size: 22px;
-  background-color: #204056;
-  color: white;
+  font-size: 20px;
+  background-color: #00aeff;
+  color: black;
   letter-spacing: 0.05rem;
   width: 100vw;
   height: 100vh;
@@ -18,21 +18,23 @@ body {
 }
 
 .code {
-  font-family: monospace;
-  background-color: #00aeff;
+  font-family: monaco, monospace;
+  background-color: white;
   padding: 0.25rem 0.75rem;
-  font-size: 1.375rem;
+  font-size: 1.15rem;
   border-radius: 0.15em;
+  color: #2f4f4f;
 }
 
 .code-block {
   font-family: monaco, Consolas, "Lucida Console", monospace;
-  background-color: #00aeff;
+  background-color: white;
   padding: 0.5em 0.75em;
   font-size: 1.15rem;
   border-radius: 0.15rem;
   display: block;
   margin: 1rem 0;
+  color: #2f4f4f;
 }
 
 .tip-number {
