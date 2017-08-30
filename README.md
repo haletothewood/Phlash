@@ -2,7 +2,7 @@
 
 ### A Chrome extention of flashcard type notes
 
-Created using the Codeacademy guide found [here](https://medium.com/@codecademy/javascript-tips-tab-4e9081b4132) 
+Created using html, CSS and javascript and by following the Codeacademy guide found [here](https://medium.com/@codecademy/javascript-tips-tab-4e9081b4132) 
   
 ---
 <p align="center"><img src=screen-shot.png height="400"></p>
